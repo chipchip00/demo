@@ -17,9 +17,9 @@ xCurr = month
 yCurr = dfCurentYear["Price"].to_numpy()
 
 yLast = dfLastYear["Price"].to_numpy()
-print("Giá vàng lớn nhất của năm: ")
+print("Giá vàng lớn nhất trong năm: ")
 print(np.amax(yCurr))
-print("Giá vàng nhỏ nhất của năm: ")
+print("Giá vàng nhỏ nhất trong năm: ")
 print(print(np.amin(yCurr)))
 print("Giá vàng trung bình của năm: ")
 print(np.mean(yCurr))
