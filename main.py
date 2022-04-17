@@ -47,3 +47,5 @@ plt.xlabel("Date")
 plt.ylabel('Price')
 plt.show()
 
+def print_hello():
+    print("Hello World!")
